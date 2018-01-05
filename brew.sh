@@ -34,9 +34,12 @@ brew install dark-mode
 brew install git
 brew install tree
 
-# Install password manager
-brew install pass
-echo "source /usr/local/etc/bash_completion.d/password-store" >> ~/.bashrc
+# Install Cask and apps
+brew tap caskroom/cask
+brew cask install vlc
+brew cask install transmission
+brew cask install the-unarchiver
+brew cask install dropbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
